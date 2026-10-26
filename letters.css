@@ -1,0 +1,41 @@
+@import url("index.css");
+.letter-page {
+    padding: 25px 15px;
+}
+
+.letter-page h1 {
+    text-align: center;
+    color: #245a9b;
+    font-size: 30px;
+}
+
+.letter-page h3 {
+    text-align: center;
+    color: #4389a8;
+    font-weight: normal;
+}
+
+.letter-body {
+    margin-top: 30px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.letter-body p {
+    margin-bottom: 22px;
+    min-height: 20px;
+}
+
+body {
+    font-family: "Pyidaungsu", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+button,
+input,
+textarea {
+    font-family: inherit;
+}

@@ -1,0 +1,22 @@
+@import url("index.css");
+.panel h2 {
+    color: #176e9a;
+}
+
+.panel li {
+    margin-bottom: 8px;
+}
+
+body {
+    font-family: "Pyidaungsu", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+button,
+input,
+textarea {
+    font-family: inherit;
+}

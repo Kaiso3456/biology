@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="my">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Video Website</title>
+
+    <link rel="stylesheet" href="./sources.css">
+    <script src="./sources.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎬 My Video Website</h1>
+        <p>Watch and enjoy your favorite lesson videos</p>
+    </header>
+
+    <main class="container">
+
+        <section class="panel">
+            <h2>➕ Add New Video</h2>
+
+            <form id="videoForm">
+
+                <input type="text" id="videoTitle" placeholder="Video နာမည်ထည့်ပါ" required>
+
+                <input type="url" id="videoLink" placeholder="YouTube Video Link ထည့်ပါ" required>
+
+                <input type="text" id="videoCategory" placeholder="Category (ဥပမာ - Education)">
+
+                <button type="submit">Add Video</button>
+
+                <p id="message" aria-live="polite"></p>
+
+            </form>
+        </section>
+
+        <section class="videos-section">
+            <h2>📺 All Videos</h2>
+
+            <input type="search" id="search" placeholder="🔍 Video နာမည်နဲ့ ရှာပါ...">
+
+            <div id="videoList" class="video-grid"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 My Video Website | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
